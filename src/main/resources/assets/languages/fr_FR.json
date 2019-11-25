@@ -34,7 +34,7 @@
       "claim_key": "Tu ne peux pas transférer une clé de réclamation."
     },
     "misc_item_usage": {
-      "mop": "%1$sTu as(peut-être) nettoyé toute la poussière que tu as accumulée au cours de toutes ces sessions minière.",
+      "mop": "%1$sTu as (peut-être) nettoyé toute la poussière que tu as accumulée au cours de toutes ces sessions minière.",
       "milk": "%1$sEffets de la potion annulés.",
       "stamina": "%1$sEndurance activée pour 5 sessions minières.",
       "stamina_used": "%1$sTu as déjà un effet d'endurance actif!",
@@ -77,7 +77,7 @@
     "generic_error": "Si tu veux, tu peux rejoindre notre **serveur de support** (Lien sur `support.mantaro.site`), et consulter notre page GitHub (`https://github.com/Kodehawa/MantaroBot`). S’il te plait dis leur d'arrêter de m'exploiter, et stp n'oublies pas le code de l'erreur en rapportant le problème !",
     "boom_quotes": ["Apparemment, Megumin a fait exploser notre château ... "," Uh-oh, de toute évidence mon maître a oublié des zéros et des uns sur le sol: <"," A-Attends, qu'est-ce qui vient de se passer? "," Je pense que nous avons un début de feu ici ... tu pourrais demander à mon maître de jeter un coup d'œil. "," Je maitrise la magie de l'explosion, tu vois ? "," Peut-être que quelque chose s'est mal passé ici, mais, euh, je peux le réparer ! "," U-Uhh .. Qu'est-ce que tu voulais ?"],
     "ratelimit_quotes": ["Woah ... tu m'appelles un peu trop vite ... je vais avoir la tête qui tourne! "," Ne sois pas si impatient ! "," T-Tu m'appelles si vite que je suis pris de vertiges ... "," Attends ! "," Attends juste un peu plus uwu, "," On va avoir une amende si on continue à aller aussi vite ! "," Je veux le faire ... mais attends un peu s'il te plait. "," Hey, attends, je n'ai pas encore fini ma pause ! "," Tu peux ralentir un peu ?"],
-    "mod_quotes": ["Uh-oh, on dirait que quelqu'un vient de recevoir un gros coup! "," C'est juste un travail administratif normal ... "," Le boot a été lancé ! "," Tu vas nous manquer ... pas vraiment en fait "," J'espère que j'ai fait ce qu'il fallait faire ... "," Woah, là, les modérateurs ont parlé ! "," U-Uh ... E-Eh bien, quelqu'un vient de voler à travers la porte."]
+    "mod_quotes": ["Uh-oh, on dirait que quelqu'un vient de recevoir un gros coup! "," C'est juste un travail administratif normal ... "," La botte a été lancée ! "," Tu vas nous manquer ... pas vraiment en fait "," J'espère que j'ai fait ce qu'il fallait faire ... "," Woah, là, les modérateurs ont parlé ! "," U-Uh ... E-Eh bien, quelqu'un vient de voler à travers la porte."]
   },
   "categories": {
     "music": "Audio",
@@ -87,7 +87,7 @@
     "owner": "Propriétaire",
     "image": "Image",
     "utils": "Utilitaire",
-    "fun": "Fun",
+    "fun": "Amusement",
     "games": "Jeux",
     "info": "Info",
     "currency": "Monnaie"
@@ -160,7 +160,7 @@
     },
     "music_usage": {
       "1": "*Comment utiliser la musique avec Mantaro?*",
-      "2": "- Pour **ajouter une musique de YouTube ou de Soundcloud dans la file de lecture ** utilises `~>play` Par exemple: `~>play https://www.youtube.com/watch?v=aAolFWjGfMs` *Mantaro se connectera automatiquement au le salon vocal dans lequel tu te trouves*",
+      "2": "- Pour **ajouter une musique de YouTube ou de Soundcloud dans la file de lecture ** utilises `~>play` Par exemple: `~>play https://www.youtube.com/watch?v=aAolFWjGfMs` *Mantaro se connectera automatiquement au salon vocal dans lequel tu te trouves*",
       "3": "- Pour **rechercher une musique de YouTube** utilises `~>play <musique recherchée>` (sans < et >) Par exemple: `~>play see you again` (Tu auras besoin de choisir le numéro du morceau, *ecris simplement le numéro* après que la liste des propositions soit apparue!)",
       "4": "- Pour **rechercher une musique de Soundcloud** utilises `~>play soundcloud <musique recherchée>` Par exemple `~>play soundcloud hot milk`",
       "5": "- Pour **vérifier la liste de lecture** écris juste `~>queue`",
@@ -173,10 +173,10 @@
       "12": "Profites bien de ta musique et merci d'utiliser Mantaro!"
     },
     "lang": {
-      "info": "%1$sTu peux changer la langue du serveur (si applicable) en utilisant `~>opts language set <language code>`. Pour changer ta langue de préférence, utilises `~>profile lang <code de la langue>`.\n**Langues disponibles : ** `%2$s`\nSi ta langue n'est pas dans la liste et que tu as envie d'aider, n'hésites pas à rejoindre serveur de support de Mantaro et à aider à la traduction !"
+      "info": "%1$sTu peux changer la langue du serveur (si applicable) en utilisant `~>opts language set <language code>`. Pour changer ta langue de préférence, utilises `~>profile lang <code de la langue>`.\n**Langues disponibles : ** `%2$s`\nSi ta langue n'est pas dans la liste et que tu as envie d'aider, n'hésites pas à rejoindre le serveur de support de Mantaro et à aider à la traduction !"
     },
      "season": {
-      "info": "Une *saison* est un laps de temps, de normalement 6 mois durant lesquels les joueurs concourent pour une place dans le top 10 des catégories money et réputation du leaderboard. Les gagnants remporteront des badges et des prix en fonction de leur performance de la saison.\nC'est pour instaurer une ambiance plus compétitive (avant, l'économie était plus renfermée) et pour rendre le jeu un peu plus chouette.\nTu peux accéder à ton équipement de la saison en utilisant `-season`. Les commandes telles que profile, mine, fish et balance en auront besoin ; games, loot, daily et reputation quant à elles donneront de l'argent/de la réputation aussi bien à ton profile globale qu'à ton profile de compétiteur.",
+      "info": "Une *saison* est un laps de temps, de normalement 6 mois durant lesquels les joueurs concourent pour une place dans le top 10 des catégories money (monnaie) et réputation du leaderboard (classement). Les gagnants remporteront des badges et des prix en fonction de leur performance de la saison.\nC'est pour instaurer une ambiance plus compétitive (avant, l'économie était plus renfermée) et pour rendre le jeu un peu plus chouette.\nTu peux accéder à ton équipement de la saison en utilisant `-season`. Les commandes telles que profile, mine, fish et balance en auront besoin ; games, loot, daily et reputation quant à elles donneront de l'argent/de la réputation aussi bien à ton profile globale qu'à ton profile de compétiteur.",
       "info_2": "\n\nLa saison actuelle est la saison **%1$s** et **%2$s** joueurs y prennent part!\n\nLa partie est lancée, regarde `~>leaderboard money -season`; `~>leaderboard rep -season` et `~>leaderboard games -season`.\nQue le jeu commence! <3\nMerci de prendre du plaisir avec Mantaro."
     },
     "music_general": {
@@ -197,17 +197,17 @@
          "no_vc_found": "%1$sJe ne suis connecté à aucun salon vocal même si je devrais. Essaie à nouveau.",
       "queue": {
         "no_track_found_np": "Rien ou titre/ durée non trouvé",
-        "header": "Lise de lecture du serveur %1$s",
+        "header": "Liste de lecture du serveur %1$s",
         "nothing_playing": "Rien ici, que de la poussière. Pourquoi n'ajoutes tu pas des chansons à la liste de lecture ?\nSi tu penses qu'il y a des chansons ici mais qu'elles n'apparaissent pas, essaies d'utiliser `~>queue 1`.",
         "nothing_playing_2": "**S'il y a un morceau en train de jouer et que tu n'as pas ajouté de musique, alors c'est qu'il n'y a que de la poussière ici. Tu peux ajouter d'autres musiques à la liste de lecture !!**",
         "np": "Joue en ce moment",
         "page_overflow": "Rien ici, que de la poussière. Pourquoi ne pas revenir en arrière de quelques pages ?",
         "page_overflow_2": "Si tu penses qu'il y a des chansons ici mais qu'elles n'apparaissent pas, essaies d'utiliser `~>queue 1`.",
-        "total_queue_time": "Durée total de la liste de lecture",
+        "total_queue_time": "Durée totale de la liste de lecture",
         "total_size": "Taille totale de la liste de lecture",
         "togglers": "Répéter / Pause",
         "playing_in": "Jouer dans",
-        "footer": "Pages total: %1$d%2$s. Actuellement à la page %3$d",
+        "footer": "Pages totales: %1$d%2$s. Actuellement à la page %3$d",
         "multiple_pages": " -> Utilises ~>queue <page> pour changer de page",
         "page_react": " -> Réagis avec les emojis de réaction pour changer de page",
         "no_channel": "Aucun salon vocal :(",
@@ -229,8 +229,8 @@
       "listener": {
         "paused": "%1$sMusique en pause parce qu'on m'a rendu muet :(",
         "resumed": "%1$sReprise de la lecture parce que quelqu'un a rejoint le salon vocal!",
-        "left_alone": "%1$sJe partirai **%2$s** dans 2 minutes parce qu’on m'a laissé tout seul :(",
-        "leave": "%1$sJ'ai décidé de partir **%2$s** parce qu’on m'a laissé tout seul :("
+        "left_alone": "%1$sJe partirai de **%2$s** dans 2 minutes parce qu’on m'a laissé tout seul :(",
+        "leave": "%1$sJ'ai décidé de partir de **%2$s** parce qu’on m'a laissé tout seul :("
       },
       "loader": {
         "over_limit": "%1$sLa liste de lecture que tu as ajouté a plus de %2$d musiques, alors j'ai ajouté uniquement les musiques jusqu'àu nombre limite et j'ai ignoré les autres.",
@@ -262,7 +262,7 @@
       "no_time": "%1$sTu dois me dire à combien tu veux rembobiner la chanson. *(Exemple : `~>rewind 1m45s` va rembobiner la chanson à 1 minute et 45 secondes)*",
       "negative": "%1$sNombres entiers positifs uniquement",
       "before_beginning": "%1$sTu ne peux pas revenir avant le début d'une chanson",
-      "success": "%1$sChanson rembobiner à: %2$s."
+      "success": "%1$sChanson rembobinée à: %2$s."
     },
     "restartsong": {
       "success": "%1$sChanson actuelle redémarrée."
